@@ -1,7 +1,7 @@
 This is a 32 bit ALU hardware implementation of 32-bit RISC V CPU.
 
 
-Currently, I am to trying to debug why Instrruction memory is not able to fetch the data located at address A apssed to the Instruction memory.
+Currently, I am to trying to debug why Instruction memory is not able to fetch the data located at address A passed to the Instruction memory.
 
 
 
