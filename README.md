@@ -10,8 +10,10 @@ Waveform for I type of instruction:- lw x6, -4(x9)
 ![image](https://github.com/user-attachments/assets/8667ff3c-641f-4d2f-bee5-cf5def47061b)
 
 
+## Load Instruction Implementation (`lw`)
 
-lw x6 -4(x9)  
+The following **load instruction** is being implemented:  
+lw x6, -4(x9)
 In machine code this amounts to 0xFFC4A303.
 ![image](https://github.com/user-attachments/assets/f863663f-198b-4819-a23f-6d51e8bcee37)
 
@@ -24,26 +26,6 @@ A3 = 0x09; (correponding to R9)
   It is then added to the value stored at R6(register 6) = 8, we get the addition result from the ALU as x00000004.
   then data mem fetches the data at at data_memory location 4 which is initialized to 7 in this case and then it is stored in register A3 (here R9). WE3 in enabled from control_unit and value 7 is stored at R9. Tak accomplished. Vlaue at data_mem[[R6] -4] is  stored at [R9]  -->
 
-Here's your content rewritten using proper GitHub Markdown mode syntax:  
-
-```markdown
-# 32-bit ALU Implementation for RISC-V CPU
-
-I am currently working on implementing the following architecture:  
-
-![Architecture Diagram](https://github.com/user-attachments/assets/2da7640a-97ea-4072-9d44-489533863362)
-
----
-
-## Load Instruction Implementation (`lw`)
-
-The following **load instruction** is being implemented:  
-lw x6, -4(x9)
-```
-In machine code, this translates to:  
-```plaintext
-0xFFC4A303
-```
 
 ### Waveform Observations  
 
