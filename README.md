@@ -80,8 +80,3 @@ Thus, the instruction successfully loads `data_mem[[R6] - 4]` into `R9`.
   - Support for **R-type** and **J-type** instructions  
 
 ---
-
-Stay tuned for further updates!
-```
-
-This uses GitHub Markdown's proper syntax, including fenced code blocks for assembly and plaintext, bullet points for clarity, and emojis for status tracking. 🚀
