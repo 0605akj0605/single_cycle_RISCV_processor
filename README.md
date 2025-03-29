@@ -38,7 +38,6 @@ I am currently working on implementing the following architecture:
 ## Load Instruction Implementation (`lw`)
 
 The following **load instruction** is being implemented:  
-```assembly
 lw x6, -4(x9)
 ```
 In machine code, this translates to:  
