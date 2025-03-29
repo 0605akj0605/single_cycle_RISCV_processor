@@ -11,9 +11,8 @@ Waveform for I type of instruction:- lw x6, -4(x9)
 
 
 
-load type of instruction is being implemented here.
 lw x6 -4(x9)  
-In machine code this amounts to 0xFFC4A303
+In machine code this amounts to 0xFFC4A303.
 ![image](https://github.com/user-attachments/assets/f863663f-198b-4819-a23f-6d51e8bcee37)
 
 In the waveform, we can observe 
