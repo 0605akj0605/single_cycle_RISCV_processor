@@ -1,0 +1,157 @@
+***************************************************************************************
+*                      PROJECT ARCHIVE SUMMARY REPORT
+*
+*                      (archive_project_summary.txt)
+*
+*  PLEASE READ THIS REPORT TO GET THE DETAILED INFORMATION ABOUT THE PROJECT DATA THAT
+*  WAS ARCHIVED FOR THE CURRENT PROJECT
+*
+* The report is divided into following five sections:-
+*
+* Section (1) - PROJECT INFORMATION
+*  This section provides the details of the current project that was archived
+*
+* Section (2) - INCLUDED/EXCLUDED RUNS
+*  This section summarizes the list of design runs for which the results were included
+*  or excluded from the archive
+*
+* Section (3) - ARCHIVED SOURCES
+*  This section summarizes the list of files that were added to the archive
+*
+* Section (3.1) - INCLUDE FILES
+*  This section summarizes the list of 'include' files that were added to the archive
+*
+* Section (3.1.1) - INCLUDE_DIRS SETTINGS
+*  This section summarizes the 'verilog include directory' path settings, if any
+*
+* Section (3.2) - REMOTE SOURCES
+*  This section summarizes the list of referenced 'remote' files that were 'imported'
+*  into the archived project
+*
+* Section (3.3) - SOURCES SUMMARY
+*  This section summarizes the list of all the files present in the archive
+*
+* Section (3.4) - REMOTE IP DEFINITIONS
+*  This section summarizes the list of all the remote IP's present in the archive
+*
+* Section (4) - JOURNAL/LOG FILES
+*  This section summarizes the list of journal/log files that were added to the archive
+*
+* Section (5) - CONFIGURATION SETTINGS/FILES
+*  This section summarizes the configuration settings/files that were added to the archive
+*
+***************************************************************************************
+
+Section (1) - PROJECT INFORMATION
+---------------------------------
+Name      = processor_1
+Directory = E:/E/digital_design/verilog-digital/fifo_mem.xpr/processor_1
+
+WARNING: Please verify the compiled library directory path for the following property in the
+         current project. The path may point to an invalid location after opening this project.
+         This could happen if the project was unarchived in a location where this path is not
+         accessible. To resolve this issue, please set this property with the desired path
+         before launching simulation:-
+
+Property = compxlib.xsim_compiled_library_dir
+Path     = 
+
+Section (2) - Excluded Runs
+---------------------------
+The run results were excluded for the following runs in the archived project:-
+
+<synth_1>
+<impl_1>
+
+Section (3) - ARCHIVED SOURCES
+------------------------------
+The following sub-sections describes the list of sources that were archived for the current project:-
+
+Section (3.1) - INCLUDE FILES
+-----------------------------
+List of referenced 'RTL Include' files that were 'imported' into the archived project:-
+
+None
+
+Section (3.1.1) - INCLUDE_DIRS SETTINGS
+---------------------------------------
+List of the "INCLUDE_DIRS" fileset property settings that may or may not be applicable in the archived
+project, since most the 'RTL Include' files referenced in the original project were 'imported' into the
+archived project.
+
+<sources_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+<sim_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+Section (3.2) - REMOTE SOURCES
+------------------------------
+List of referenced 'remote' design files that were 'imported' into the archived project:-
+
+<constrs_1>
+None
+
+<sim_1>
+E:/E/digital_design/verilog-digital/processor/processor-20250322T163513Z-001/processor/single_cycle_top_tb.v
+E:/E/digital_design/verilog-digital/fifo_mem.xpr/processor_1/single_cycle_processor_top_tb_behav.wcfg
+
+<sources_1>
+C:/Users/This Pc/Downloads/processor-20250322T163513Z-001/processor/alu.v
+C:/Users/This Pc/Downloads/processor-20250322T163513Z-001/processor/alu_control.v
+C:/Users/This Pc/Downloads/processor-20250322T163513Z-001/processor/control_unit_top.v
+C:/Users/This Pc/Downloads/processor-20250322T163513Z-001/processor/data_memory.v
+C:/Users/This Pc/Downloads/processor-20250322T163513Z-001/processor/instruction_memory.v
+C:/Users/This Pc/Downloads/processor-20250322T163513Z-001/processor/main_decoder.v
+C:/Users/This Pc/Downloads/processor-20250322T163513Z-001/processor/pc_adder.v
+C:/Users/This Pc/Downloads/processor-20250322T163513Z-001/processor/program_counter.v
+C:/Users/This Pc/Downloads/processor-20250322T163513Z-001/processor/register_file.v
+C:/Users/This Pc/Downloads/processor-20250322T163513Z-001/processor/sign_extend.v
+C:/Users/This Pc/Downloads/processor-20250322T163513Z-001/processor/single_cycle_processor_top.v
+
+Section (3.3) - SOURCES SUMMARY
+-------------------------------
+List of all the source files present in the archived project:-
+
+<sources_1>
+./processor_1.srcs/sources_1/imports/processor/alu.v
+./processor_1.srcs/sources_1/imports/processor/alu_control.v
+./processor_1.srcs/sources_1/imports/processor/control_unit_top.v
+./processor_1.srcs/sources_1/imports/processor/data_memory.v
+./processor_1.srcs/sources_1/imports/processor/instruction_memory.v
+./processor_1.srcs/sources_1/imports/processor/main_decoder.v
+./processor_1.srcs/sources_1/imports/processor/pc_adder.v
+./processor_1.srcs/sources_1/imports/processor/program_counter.v
+./processor_1.srcs/sources_1/imports/processor/register_file.v
+./processor_1.srcs/sources_1/imports/processor/sign_extend.v
+./processor_1.srcs/sources_1/imports/processor/single_cycle_processor_top.v
+
+<constrs_1>
+None
+
+<sim_1>
+./processor_1.srcs/sim_1/imports/verilog-digital/processor/processor-20250322T163513Z-001/processor/single_cycle_top_tb.v
+./processor_1.srcs/sim_1/imports/verilog-digital/fifo_mem.xpr/processor_1/single_cycle_processor_top_tb_behav.wcfg
+
+Section (3.4) - REMOTE IP DEFINITIONS
+-------------------------------------
+List of all the remote IP's present in the archived project:-
+
+<sources_1>
+None
+
+Section (4) - JOURNAL/LOG FILES
+-------------------------------
+List of Journal/Log files that were added to the archived project:-
+
+Source File = C:/Users/This Pc/AppData/Roaming/Xilinx/Vivado/vivado.jou
+Archived Location = ./processor_1/vivado.jou
+
+Source File = C:/Users/This Pc/AppData/Roaming/Xilinx/Vivado/vivado.log
+Archived Location = ./processor_1/vivado.log
+
+Section (5) - CONFIGURATION SETTINGS/FILES
+------------------------------------------
+List of configuration settings/files that were added to the archived project:-
+
+

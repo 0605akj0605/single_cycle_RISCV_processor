@@ -1,0 +1,24 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/This Pc/Downloads/processor-20250322T163513Z-001/processor/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/This Pc/Downloads/processor-20250322T163513Z-001/processor/alu_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/This Pc/Downloads/processor-20250322T163513Z-001/processor/control_unit_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/This Pc/Downloads/processor-20250322T163513Z-001/processor/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/This Pc/Downloads/processor-20250322T163513Z-001/processor/instruction_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module intr_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/This Pc/Downloads/processor-20250322T163513Z-001/processor/main_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module main_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/This Pc/Downloads/processor-20250322T163513Z-001/processor/pc_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/This Pc/Downloads/processor-20250322T163513Z-001/processor/program_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/This Pc/Downloads/processor-20250322T163513Z-001/processor/register_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/This Pc/Downloads/processor-20250322T163513Z-001/processor/sign_extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/This Pc/Downloads/processor-20250322T163513Z-001/processor/single_cycle_processor_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module single_cycle_processor_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/E/digital_design/verilog-digital/processor/processor-20250322T163513Z-001/processor/single_cycle_top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module single_cycle_processor_top_tb

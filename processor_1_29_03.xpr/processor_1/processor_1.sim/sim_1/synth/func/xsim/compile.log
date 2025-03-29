@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/E/digital_design/verilog-digital/fifo_mem.xpr/processor_1/processor_1.sim/sim_1/synth/func/xsim/single_cycle_processor_top_tb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module single_cycle_processor_top
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/E/digital_design/verilog-digital/processor/processor-20250322T163513Z-001/processor/single_cycle_top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module single_cycle_processor_top_tb

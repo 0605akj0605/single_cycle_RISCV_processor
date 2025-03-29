@@ -1,0 +1,29 @@
+$date
+   Fri Mar 28 15:26:01 2025
+$end
+$version
+  2017.4
+$end
+$timescale
+  1ps
+$end
+$scope module single_cycle_processor_top_tb $end
+$scope module tb $end
+$var wire 32 ! pc_top [31:0] $end
+$var wire 32 " pc_plus4 [31:0] $end
+$var wire 32 # instn_mem_top [31:0] $end
+$var wire 32 $ reg_file_top [31:0] $end
+$var wire 32 % alu_result_top [31:0] $end
+$var wire 32 & read_data_top [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx !
+bx "
+bx #
+b0 $
+bz %
+bx &
+$end
