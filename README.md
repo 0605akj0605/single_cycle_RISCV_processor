@@ -47,7 +47,7 @@ To simulate the results above, download the folder "processor_new_branch_load_sa
   - Support for **R-type** instructions ( or )
 
 - 🔧 **Ongoing:**  
-  - Support for  **R-type** instructions( beq )
+  - Support for  **B-type** instructions( beq )
 
 - 🚀 **To be Added:**  
   - Booth's algorithm for multiplication.
