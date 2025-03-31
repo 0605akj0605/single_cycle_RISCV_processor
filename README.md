@@ -36,6 +36,8 @@ Waveforms:-
 
 
 
+To simulate the results above, download the folder "processor_new_branch_load_save_or_done" -> run the xpr file -> run behavioural simulation in XIlinx VIvado.
+
 
 ## Implementation Progress  
 
