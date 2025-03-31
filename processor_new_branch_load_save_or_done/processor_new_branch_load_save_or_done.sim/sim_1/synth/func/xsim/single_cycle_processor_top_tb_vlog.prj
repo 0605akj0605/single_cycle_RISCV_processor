@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"single_cycle_processor_top_tb_func_synth.v" \
+"../../../../../processor.srcs/sim_1/imports/processor/single_cycle_top_tb.v" \
+
+# Do not sort compile order
+nosort

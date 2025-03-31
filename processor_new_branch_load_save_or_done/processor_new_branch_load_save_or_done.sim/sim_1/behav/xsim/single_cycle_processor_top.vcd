@@ -1,0 +1,301 @@
+$date
+   Mon Mar 31 16:20:56 2025
+$end
+$version
+  2017.4
+$end
+$timescale
+  1ps
+$end
+$scope module single_cycle_processor_top_tb $end
+$scope module tb $end
+$var wire 1 ! clk $end
+$var wire 1 " rst $end
+$var wire 1 # top_memwrite $end
+$var wire 1 $ top_regwrite $end
+$var wire 32 % pc_top [31:0] $end
+$var wire 32 & pc_plus4 [31:0] $end
+$var wire 32 ' constn_4 [31:0] $end
+$var wire 1 ( alu_src_top $end
+$var wire 1 ) result_src_top $end
+$var wire 32 * alu_sourceB_top [31:0] $end
+$var wire 32 + instn_mem_top [31:0] $end
+$var wire 2 , imm_src_top [1:0] $end
+$var wire 32 - reg_file_top [31:0] $end
+$var wire 32 . reg_file_top2 [31:0] $end
+$var wire 32 / Imm_Ext_top [31:0] $end
+$var wire 3 0 alu_control_top [2:0] $end
+$var wire 32 1 alu_result_top [31:0] $end
+$var wire 32 2 read_data_top [31:0] $end
+$var wire 32 3 result_src_read_data_top [31:0] $end
+$scope module pc $end
+$var wire 1 ! clk $end
+$var wire 1 " rst $end
+$var reg 32 4 pc [31:0] $end
+$var wire 32 & pc_next [31:0] $end
+$upscope $end
+$scope module pc_add $end
+$var wire 32 % a [31:0] $end
+$var wire 32 ' b [31:0] $end
+$var wire 1 " rst $end
+$var wire 32 & c [31:0] $end
+$upscope $end
+$scope module im $end
+$var wire 32 % A [31:0] $end
+$var wire 1 " rst $end
+$var wire 32 + rd [31:0] $end
+$upscope $end
+$scope module rf $end
+$var wire 1 " rst $end
+$var wire 1 ! clk $end
+$var wire 5 5 A1 [4:0] $end
+$var wire 5 6 A2 [4:0] $end
+$var wire 5 7 A3 [4:0] $end
+$var wire 32 2 WD3 [31:0] $end
+$var wire 1 $ WE3 $end
+$var wire 32 - RD1 [31:0] $end
+$var wire 32 . RD2 [31:0] $end
+$var integer 32 8 i $end
+$upscope $end
+$scope module sign_ex $end
+$var wire 32 + In [31:0] $end
+$var wire 2 , imm_src [1:0] $end
+$var wire 32 / Imm_Ext [31:0] $end
+$upscope $end
+$scope module alu $end
+$var wire 32 - A [31:0] $end
+$var wire 32 * B [31:0] $end
+$var wire 32 1 result [31:0] $end
+$var wire 3 0 alu_control [2:0] $end
+$var wire 1 9 cout $end
+$var wire 32 : sum [31:0] $end
+$var wire 32 ; diff [31:0] $end
+$var wire 32 < mux1 [31:0] $end
+$var wire 32 = a_and_b [31:0] $end
+$var wire 32 > a_or_b [31:0] $end
+$var wire 1 ? C $end
+$var wire 1 @ Z $end
+$var wire 1 A N $end
+$var wire 1 B V $end
+$var wire 1 C zero_extend $end
+$upscope $end
+$scope module alu_mux $end
+$var wire 32 . RD2 [31:0] $end
+$var wire 32 / Imm_Ext [31:0] $end
+$var wire 32 * alu_source_out [31:0] $end
+$var wire 1 ( alu_src $end
+$upscope $end
+$scope module alu_src_mux $end
+$var wire 32 1 alu_result [31:0] $end
+$var wire 32 2 RD_data_mem [31:0] $end
+$var wire 32 3 result_src_mux_result [31:0] $end
+$var wire 1 ) result_src $end
+$upscope $end
+$scope module control_un_top $end
+$var wire 7 D op [6:0] $end
+$var wire 7 E funct7 [6:0] $end
+$var wire 3 F funct3 [2:0] $end
+$var wire 1 $ reg_write $end
+$var wire 1 ( alu_src $end
+$var wire 1 # mem_write $end
+$var wire 1 ) result_src $end
+$var wire 1 G branch $end
+$var wire 2 , imm_src [1:0] $end
+$var wire 3 0 alu_control [2:0] $end
+$var wire 2 H alu_op [1:0] $end
+$scope module main_decode $end
+$var wire 1 I pc_src $end
+$var wire 1 G branch $end
+$var wire 1 ) result_src $end
+$var wire 1 # mem_write $end
+$var wire 1 ( alu_src $end
+$var wire 7 D opcode [6:0] $end
+$var wire 2 H alu_op [1:0] $end
+$var wire 2 , imm_src [1:0] $end
+$var wire 1 $ reg_write $end
+$upscope $end
+$scope module alu_decode $end
+$var wire 3 F funct3 [2:0] $end
+$var wire 7 E funct7 [6:0] $end
+$var wire 7 D op [6:0] $end
+$var wire 3 0 alu_control [2:0] $end
+$var wire 2 H alu_op [1:0] $end
+$var wire 1 J op__5 $end
+$var wire 1 K funct7__5 $end
+$var wire 1 L op__5__op__7 $end
+$upscope $end
+$upscope $end
+$scope module data_mem $end
+$var wire 1 ! clk $end
+$var wire 1 " rst $end
+$var wire 1 # WE $end
+$var wire 32 1 A [31:0] $end
+$var wire 32 . WD [31:0] $end
+$var wire 32 2 RD [31:0] $end
+$var integer 32 M i $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+0"
+x#
+x$
+b0 %
+b0 &
+b100 '
+x(
+x)
+bx *
+bx +
+bx ,
+b0 -
+b0 .
+bx /
+bx 0
+bx 1
+b0 2
+bx 3
+b0 4
+bx 5
+bx 6
+bx 7
+b100000 8
+x9
+bx :
+bx ;
+bx <
+b0 =
+bx >
+x?
+x@
+xA
+xB
+xC
+bx D
+bx E
+bx F
+xG
+bx H
+zI
+xJ
+xK
+xL
+b100000 M
+$end
+#5000
+0!
+#10000
+1!
+1"
+0#
+1$
+b100 %
+b1000 &
+1(
+1)
+b11111111111111111111111111111100 *
+b11111111110001001010001100000011 +
+b0 ,
+b1001 -
+b11100 .
+b11111111111111111111111111111100 /
+b0 0
+b101 1
+b101 2
+b101 3
+b100 4
+b1001 5
+b11100 6
+b110 7
+19
+b101 :
+b0 ;
+b11111111111111111111111111111100 <
+b1000 =
+b11111111111111111111111111111101 >
+1?
+0@
+0A
+0B
+0C
+b11 D
+b1111111 E
+b10 F
+0G
+b0 H
+0J
+1K
+1L
+#15000
+0!
+#20000
+1!
+1#
+0$
+b1000 %
+b1100 &
+1(
+x)
+b1000 *
+b11001001010010000100011 +
+b1 ,
+b1001 -
+b101 .
+b1000 /
+b0 0
+b10001 1
+b10001 2
+b10001 3
+b1000 4
+b1001 5
+b110 6
+b1000 7
+09
+b10001 :
+b0 ;
+b1000 <
+b1000 =
+b1001 >
+0?
+b100011 D
+b0 E
+b10 F
+b0 H
+1J
+0K
+0L
+#25000
+0!
+#30000
+1!
+0#
+1$
+b1100 %
+b10000 &
+0(
+0)
+b101 *
+b11000101110001000110011 +
+bx ,
+b101 -
+b0xx0 /
+b11 0
+b101 1
+b101 2
+b101 3
+b1100 4
+b101 5
+b110 6
+b100 7
+19
+b0 :
+b0 ;
+b11111111111111111111111111111010 <
+b101 =
+b101 >
+b110011 D
+b110 F
+b10 H

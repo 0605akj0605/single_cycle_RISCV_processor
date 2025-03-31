@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/UG_VLSI/Y2025/EC31/2201011/processor/processor.sim/sim_1/synth/func/xsim/single_cycle_processor_top_tb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-311] analyzing module pc_adder
+INFO: [VRFC 10-311] analyzing module program_counter
+INFO: [VRFC 10-311] analyzing module register_file
+INFO: [VRFC 10-311] analyzing module single_cycle_processor_top
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/UG_VLSI/Y2025/EC31/2201011/processor/processor.srcs/sim_1/imports/processor/single_cycle_top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module single_cycle_processor_top_tb

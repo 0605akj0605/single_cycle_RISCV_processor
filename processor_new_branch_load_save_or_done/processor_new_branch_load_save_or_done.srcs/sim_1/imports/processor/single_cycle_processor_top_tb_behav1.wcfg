@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="single_cycle_processor_top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="single_cycle_processor_top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="10966667fs"></ZoomStartTime>
+      <ZoomEndTime time="134466668fs"></ZoomEndTime>
+      <Cursor1Time time="31550000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="190"></NameColumnWidth>
+      <ValueColumnWidth column_width="67"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="54" />
+   <wvobject fp_name="/single_cycle_processor_top_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="group420" type="group">
+      <obj_property name="label">instr_mem</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/alu_control_top" type="array">
+      <obj_property name="ElementShortName">alu_control_top[2:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_control_top[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/alu_result_top" type="array">
+      <obj_property name="ElementShortName">alu_result_top[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_result_top[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/instn_mem_top" type="array">
+      <obj_property name="ElementShortName">instn_mem_top[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instn_mem_top[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/pc_top" type="array">
+      <obj_property name="ElementShortName">pc_top[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_top[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/read_data_top" type="array">
+      <obj_property name="ElementShortName">read_data_top[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data_top[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/top_regwrite" type="logic">
+      <obj_property name="ElementShortName">top_regwrite</obj_property>
+      <obj_property name="ObjectShortName">top_regwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/alu/A" type="array">
+      <obj_property name="ElementShortName">A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/alu/B" type="array">
+      <obj_property name="ElementShortName">B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/alu/result" type="array">
+      <obj_property name="ElementShortName">result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/alu/cout" type="logic">
+      <obj_property name="ElementShortName">cout</obj_property>
+      <obj_property name="ObjectShortName">cout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/alu/sum" type="array">
+      <obj_property name="ElementShortName">sum[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sum[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/alu/C" type="logic">
+      <obj_property name="ElementShortName">C</obj_property>
+      <obj_property name="ObjectShortName">C</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/alu/Z" type="logic">
+      <obj_property name="ElementShortName">Z</obj_property>
+      <obj_property name="ObjectShortName">Z</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/alu/N" type="logic">
+      <obj_property name="ElementShortName">N</obj_property>
+      <obj_property name="ObjectShortName">N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/alu/V" type="logic">
+      <obj_property name="ElementShortName">V</obj_property>
+      <obj_property name="ObjectShortName">V</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/alu/zero_extend" type="logic">
+      <obj_property name="ElementShortName">zero_extend</obj_property>
+      <obj_property name="ObjectShortName">zero_extend</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/control_un_top/op" type="array">
+      <obj_property name="ElementShortName">op[6:0]</obj_property>
+      <obj_property name="ObjectShortName">op[6:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/control_un_top/funct7" type="array">
+      <obj_property name="ElementShortName">funct7[6:0]</obj_property>
+      <obj_property name="ObjectShortName">funct7[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/control_un_top/reg_write" type="logic">
+      <obj_property name="ElementShortName">reg_write</obj_property>
+      <obj_property name="ObjectShortName">reg_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/control_un_top/alu_src" type="logic">
+      <obj_property name="ElementShortName">alu_src</obj_property>
+      <obj_property name="ObjectShortName">alu_src</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/control_un_top/mem_write" type="logic">
+      <obj_property name="ElementShortName">mem_write</obj_property>
+      <obj_property name="ObjectShortName">mem_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/control_un_top/result_src" type="logic">
+      <obj_property name="ElementShortName">result_src</obj_property>
+      <obj_property name="ObjectShortName">result_src</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/control_un_top/alu_control" type="array">
+      <obj_property name="ElementShortName">alu_control[2:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_control[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/rf/A1" type="array">
+      <obj_property name="ElementShortName">A1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">A1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/rf/A2" type="array">
+      <obj_property name="ElementShortName">A2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">A2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/rf/A3" type="array">
+      <obj_property name="ElementShortName">A3[4:0]</obj_property>
+      <obj_property name="ObjectShortName">A3[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/rf/WD3" type="array">
+      <obj_property name="ElementShortName">WD3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WD3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/rf/WE3" type="logic">
+      <obj_property name="ElementShortName">WE3</obj_property>
+      <obj_property name="ObjectShortName">WE3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/rf/RD1" type="array">
+      <obj_property name="ElementShortName">RD1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/rf/RD2" type="array">
+      <obj_property name="ElementShortName">RD2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/rf/Registers" type="array">
+      <obj_property name="ElementShortName">Registers[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">Registers[31:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/rf/Registers[9]" type="array">
+      <obj_property name="ElementShortName">[9][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/rf/Registers[6]" type="array">
+      <obj_property name="ElementShortName">[6][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/rf/Registers[5]" type="array">
+      <obj_property name="ElementShortName">[5][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/rf/Registers[4]" type="array">
+      <obj_property name="ElementShortName">[4][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/data_mem/A" type="array">
+      <obj_property name="ElementShortName">A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/data_mem/WD" type="array">
+      <obj_property name="ElementShortName">WD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group1568" type="group">
+      <obj_property name="label">alu_src_mux</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/single_cycle_processor_top_tb/tb/alu_result_top" type="array">
+         <obj_property name="ElementShortName">alu_result_top[31:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_result_top[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/control_un_top/alu_src" type="logic">
+      <obj_property name="ElementShortName">alu_src</obj_property>
+      <obj_property name="ObjectShortName">alu_src</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/data_mem/RD" type="array">
+      <obj_property name="ElementShortName">RD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/alu_src_mux/alu_result" type="array">
+      <obj_property name="ElementShortName">alu_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/alu_src_mux/RD_data_mem" type="array">
+      <obj_property name="ElementShortName">RD_data_mem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD_data_mem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/alu_src_mux/result_src_mux_result" type="array">
+      <obj_property name="ElementShortName">result_src_mux_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result_src_mux_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/alu_src_mux/result_src" type="logic">
+      <obj_property name="ElementShortName">result_src</obj_property>
+      <obj_property name="ObjectShortName">result_src</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/control_un_top/alu_src" type="logic">
+      <obj_property name="ElementShortName">alu_src</obj_property>
+      <obj_property name="ObjectShortName">alu_src</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/alu_src_mux/alu_result" type="array">
+      <obj_property name="ElementShortName">alu_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/alu_src_mux/RD_data_mem" type="array">
+      <obj_property name="ElementShortName">RD_data_mem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD_data_mem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/alu_src_mux/result_src_mux_result" type="array">
+      <obj_property name="ElementShortName">result_src_mux_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result_src_mux_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/alu_src_mux/result_src" type="logic">
+      <obj_property name="ElementShortName">result_src</obj_property>
+      <obj_property name="ObjectShortName">result_src</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_processor_top_tb/tb/control_un_top/alu_src" type="logic">
+      <obj_property name="ElementShortName">alu_src</obj_property>
+      <obj_property name="ObjectShortName">alu_src</obj_property>
+   </wvobject>
+</wave_config>
